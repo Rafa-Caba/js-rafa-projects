@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head header("Set-Cookie: cross-site-cookie=whatever; SameSite=None; Secure")>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="images/icon-calculadora.png" type="image/png">
+        <link rel="stylesheet" href="calculadora.css">
+        <title>Calculadora</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1 id="title">Calculadora</h1>
+            <a href="../index.html">Volver a Inicio</a>
+        </div>
+
+        <div class="container-results">
+            <div class="container-results-text">
+                <p id="result-title">Resultado</p>
+                <p class="results-numbers" id="resultado">0</p>
+                <p class="results-numbers" id="operacion-vista"></p>
+                <p class="results-numbers" id="message">...</p>
+            </div>
+        </div>
+        <div class="container-table">
+            <div class="container-buttons">
+                <table class="container-buttons">
+                    <tr>
+                        <td><button id="cleanAll" >C</button></td><td><button id="actual-clean">AC</button></td>
+                        <td><button id="percent">%</button></td><td><button id="division">/</button></td>
+                        <td><button id="pi">Pi</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="siete">7</button></td><td><button id="ocho">8</button></td>
+                        <td><button id="nueve">9</button></td><td><button id="multi">x</button></td>
+                        <td><button id="randomNum">Rand</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="cuatro">4</button></td><td><button id="cinco">5</button></td>
+                        <td><button id="seis">6</button></td><td><button id="resta">-</button></td>
+                        <td><button id="potenciaCuadrada">x²</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="uno">1</button></td><td><button id="dos">2</button></td>
+                        <td><button id="tres">3</button></td><td><button id="suma">+</button></td>
+                        <td><button id="potenciaCubica">x³</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button id="cero">0</button></td>
+                        <td><button id="punto">.</button></td><td><button id="igual">=</button></td>
+                        <td><button id="raizCuadrada">Raiz</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <script src="calculadora.js"></script>
+    </body>
+</html>

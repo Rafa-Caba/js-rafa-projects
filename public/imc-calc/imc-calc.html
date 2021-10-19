@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head header("Set-Cookie: cross-site-cookie=whatever; SameSite=None; Secure")>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="imc-calc.css">
+    <link rel="shortcut icon" href="images/icon-imc.png" type="image/png">
+    <title>Calculador IMC</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Calculador IMC</h1>
+    </div>
+    <a href="../index.html">Volver a Calculadores</a>
+
+    <div class="data-inputs">
+        <div class="data" id="peso-input">
+            <label for="peso" id="text-peso">Peso (Kg):</label>
+            <input type="text" id="peso" placeholder="Peso (Kg)">
+        </div>
+        <div class="data" id="estatura-input">
+            <label for="estatura" id="text-estatura">Estatura (metros):</label>
+            <input type="text" id="estatura" placeholder="Estatura (m)">
+        </div>
+    </div>
+
+    <div class="btns">
+        <button id="btn-calcular">Calcular IMC</button>
+        <button id="btn-reiniciar">Reiniciar</button>
+    </div>
+    <p id="resultado"></p>
+
+    <script src="imc.js"></script>
+</body>
+</html>

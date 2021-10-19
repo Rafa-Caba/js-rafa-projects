@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing Script');
+
+body {
+    font-size: 16px;
+    background-image: url('images/cielo.jpg');
+}
+
+.container {
+    width: 1280px;
+    padding-top: 2em;
+    margin: auto;
+}
+
+.container-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: cursive;
+    margin: auto;
+    padding-bottom: 0.5vw;
+    color: rgb(0, 0, 148);
+}
+
+.container-title a {
+    color: rgb(22, 22, 126);
+    transition-duration: 0.4s;
+}
+
+.container-title a:hover {
+    color: rgb(52, 94, 143);
+}
+
+.citas-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100hv;
+}
+
+.citas-contenedor-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 56.25em;
+    min-height: 400px;
+    align-items: center;
+    color: gray;
+    border-radius: 1em;
+    border: 0.62em solid blanchedalmond;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    background-image: url('images/Espiritu-Santo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.citas-contenedor-texto p {
+    padding: 0.6em 0.4em;
+    font-size: 2rem;
+    color: black;
+}
+
+.citas-contenedor-texto h3 {
+    font-size: 2.5rem;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
+
+.boton-citas {
+    padding-top: 2em;
+}
+
+button {
+    transition-duration: 0.6s;
+}
+
+button:hover {
+    font-size: 1.2em;
+}
+
+
+
+img {
+    width: 25em;
+}
+
+@media(max-width: 1280px) {
+    .container {width: 95%;}
+}
+
+@media(max-width: 900px) {
+    body { font-size: 10; }
+    .citas-contenedor-texto {width: 100%;}
+    img { width: 50%; }
+    
+}
+
+@media(max-width: 480px) {
+    body { font-size: 8; }
+    .citas-contenedor-texto p {font-size: 1.2rem;}
+    .citas-contenedor-texto h2 {font-size: 1.5rem;}
+    img { width: 20%; }
+}

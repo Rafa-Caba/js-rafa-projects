@@ -1,0 +1,101 @@
+body {
+    overflow: auto;
+    background: rgb(236, 185, 221);
+    align-items: center;
+    font-size: 16px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+a {
+    padding: 0 0 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    margin: 0;
+}
+
+a:hover {
+    color: rgb(170, 13, 197);
+}
+
+.data-inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.data {
+    text-align: left;
+    display: flex;
+}
+
+#peso-input {
+    display: flex;
+    gap: 7em;
+}
+
+#estatura-input {
+    display: flex;
+    gap: 1em;
+}
+
+#text-peso {
+    font-size: 2.1em;
+}
+
+#text-estatura {
+    font-size: 2em;
+}
+
+button {
+    padding: 0.6em 2.7em;
+    transition-duration: 0.3s;
+    font-size: 1.2em;
+    box-shadow: 0 0.7em 1.2em 0 rgba(0, 0, 0, 0.2), 0 0.6em 1em 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    margin: 0;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    gap: 0.3em;
+}
+
+button:hover {
+    background-color: rgb(55, 10, 100);
+    color: white;
+}
+
+#resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        font-size: 6px;
+    }
+}

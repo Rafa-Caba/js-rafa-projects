@@ -1,0 +1,75 @@
+body {
+    overflow: auto;
+    background: black;
+    align-items: center;
+
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 2vw;
+    font-size: 1.5vw;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 6px 12px 0 rgba(255, 255, 255, 0.2), 0 4px 15px 0 rgba(255, 255, 255, 0.19);
+    border-radius: 12px;
+    padding: 10px 25px;
+    font-size: 3vw;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+.buttons:hover {
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 3vw;
+    color: #fff;
+}
+
+.container {
+    width: auto;
+    margin: auto;
+    cursor: pointer;
+}
+
+.cronometro-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.botones-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#contador {
+    user-select: none;
+    color: #fff;
+    font-size: 8vw;
+}
+
+#botones {
+    user-select: none;
+    color: #fff;
+    font-size: 4vw;
+}

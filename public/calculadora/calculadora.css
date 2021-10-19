@@ -1,0 +1,113 @@
+body {
+    overflow: auto;
+    background: rgb(223, 93, 93);
+    align-items: center;
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    color: rgb(5, 46, 80);  
+    font-size: 2em;
+    margin: 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header a {
+    color: rgb(5, 46, 80);
+    font-size: 0.7em;
+    font-weight: bold;
+    padding: 0.4em;
+}
+
+.container-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-results-text {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 6em;
+    margin: 0;
+    background-color: rgba(230, 71, 71, 0.911);
+}
+
+#result-title {
+    font-size: 2em;
+    margin: 0;
+}
+
+.container-results-text p {
+    text-align: start;
+    padding: 0.2em 2.5em;
+    margin: 0.3em;
+    margin-bottom: 0.9em;
+    font-size: 1.5em; 
+    font-weight: bold;
+}
+
+.results-numbers {
+    background-color: seashell;
+    padding: 0 1em;
+}
+
+.container-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7em;
+}
+
+.container-buttons {
+    overflow: auto;
+    line-height: 200%;
+    background-color: rgba(230, 71, 71, 0.911);
+    padding: 0.5em;
+    border-collapse: collapse;
+}
+
+button {
+    font-size: 1.7em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(5, 46, 80);
+    padding: 0.5em 1.5em;
+    border: none;
+    width: 100%;
+    background-color: rgb(240, 194, 194);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(214, 67, 67);
+    color: white;
+}
+
+tr {
+    background-color: rgba(233, 121, 121, 0.911);
+    margin: 0.6em;
+    padding: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        font-size: 9px;
+    }
+}

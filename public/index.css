@@ -1,0 +1,114 @@
+body {
+    overflow: auto;
+    background: rgb(16, 105, 156);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1280px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.hora {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: center;
+    margin: 1.5em;
+    width: 100%;
+}
+
+#hora {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1em;
+    font-family: cursive;
+    color: #fff;
+    margin: 0 1em;
+    padding: 0.5em;
+    width: 25%;
+    border: 0.2em solid #fff;
+    border-radius: 1em;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em;
+    width: 100%;
+}
+
+.title h1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 1em 0;
+    border: none;
+    font-size: 5em;
+    color: #fff;
+    margin: 0;
+}
+
+#links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    padding: 0 1em;
+    margin: 0;
+    gap: 1.5em;
+}
+
+a {
+    color: rgb(137, 174, 235);
+    margin: 0;
+    cursor: pointer;
+}
+
+.images {
+    transition-duration: 0.4s;
+}
+
+.images:hover {
+    transform: scale(1.5, 1.5);
+}
+
+img {
+    width: 5em; 
+    height: 5em; 
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1100px) {
+    .hora {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        font-size: 6px;
+    }
+}

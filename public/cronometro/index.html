@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head header("Set-Cookie: cross-site-cookie=whatever; SameSite=None; Secure")>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/icon-cronometro.png" type="image/png">
+        <link rel="stylesheet" href="styles.css">
+        <title>Cronometro</title>
+    </head>
+    <body>
+        <div id="header">
+            <h1 id="titulo">Cronometro</h1>
+        </div>
+
+        <a href="../index.html" id="volver-inicio">Volver a Inicio</a>
+
+        <div class="container">
+            <div>
+                <div class="botones-display">
+                    <button id="iniciar" class="buttons">Iniciar</button>
+                    <button id="detener" class="buttons">Detener</button>
+                    <button id="reiniciar" class="buttons">Reiniciar</button>
+                </div>
+                <div class="cronometro-display">
+                    <p id="contador">00:00:00</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="cronometro.js"></script>
+    </body>
+</html>

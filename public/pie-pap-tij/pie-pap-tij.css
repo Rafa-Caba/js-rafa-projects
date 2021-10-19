@@ -1,0 +1,349 @@
+body {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background-color: rgb(52, 91, 163);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    color: #fff;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0.5em 1em;
+    background-color: rgb(51, 51, 104);
+    width: 60%;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1.4em;
+    margin: 0;
+    color: rgb(162, 158, 221);
+    padding: 0.3em 0.7em; 
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+}
+
+.name-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;  
+    color: rgb(5, 46, 80);  
+    padding: 0.5em 2em;
+    margin: 0;
+    width: 60%;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: #fff;
+    padding: 0.5em; 
+    font-size: 2em;
+}
+
+input {
+    background-color: rgb(132, 214, 207);
+    box-sizing: border-box;
+    padding: 0.1em 0.8em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.inicio-juego {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1em 2em;
+    gap: 0.5em;
+    width: 60%;
+}
+
+.mensajeAlerta {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+button {
+    padding: 0.1em 0.8em;
+    font-size: 1.4em;
+    background-color: rgb(17, 111, 219);
+    color: #fff;
+    border-color: turquoise;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(14, 19, 87);
+    color: white;
+}
+
+#juego {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    margin: 0;
+    background-color: rgb(51, 51, 104);
+}
+
+.mensajeBienvenida {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center; 
+    background-color: rgb(4, 8, 236);
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.container-juego {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+table {
+    margin: 0;
+    text-align: center;
+    padding: 0 0.6em;
+    font-size: 1em;
+}
+
+th {
+    background-color: rgb(112, 104, 104);
+    text-align: center;
+    padding: 0 1em;
+    color: #fff;
+}
+
+td {
+    padding: 0.1em 2em;
+    background-color: rgb(112, 104, 104);
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.scores-choices {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(87, 80, 80);
+    border: 0.3em solid rgb(168, 167, 167);
+    gap: 0.3em;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(168, 167, 167);
+    padding: 0.4em 0.8em;
+    width: 45%;
+    height: 100%;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    padding: 0.2em 1.3em;
+    margin: 0;
+    background-color: rgb(168, 167, 167);
+    color: #fff;
+}
+
+.botones-juego {
+    padding: 1em;
+    margin: 0;
+    height: 100%;
+}
+
+.choices p {
+    font-size: 1.5em;
+    margin: 0.4em;
+    padding-top: 0.2em;
+}
+
+.juego-choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    background-color: darkslateblue;
+    margin: 0;
+    height: 23.4em;
+    padding: 0.5em;
+    gap: 2em;
+}
+
+.jugador-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.compu-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.jugador-choice-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 45%;
+    height: 100%;
+    padding: 0 2.8em 0 2em;
+    margin: 0;
+    color: rgb(141, 220, 231);
+}
+
+.jugador-choice-text p {
+    margin: 0;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+
+.compu-choice-text {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 45%;
+    height: 100%;
+    padding: 0 2.8em 0 2.8em;
+    color: rgb(141, 220, 231);
+}
+
+.compu-choice-text p {
+    margin: 0;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.7em;
+    color: rgb(7, 14, 58);
+    background-color: rgb(168, 167, 167);
+}
+
+.resultado p{
+    margin: 1%;
+}
+
+.endgame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    font-size: 1em;
+    color: rgb(143, 185, 240);
+}
+
+.endgame p {
+    font-size: 1.3em;
+}
+
+img {
+    width: 240px;
+    height: 300px;
+}
+
+@media screen and (max-width: 1150px) {
+    body {
+        font-size: 10px;
+    }
+    img {
+        width: 160px;
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 6px;
+    }
+    img {
+        width: 100px;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 5px;
+    }
+
+    img {
+        width: 80px;
+        height: 97px;
+    }
+}
